@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+:root {
+    --branco: #FFF2EB;
+    --cor-de-fundo: #333446;
+    --fundo-senha: #533B4D;
+    --fundo-texto: #B6B09F;
+    --borda: #273F4F;
+    --fonte: 'Caveat', Sans-serif;
+}
+
+* {
+    font-weight: 400;
+}
+
+body {
+    color: var(--branco);
+    background-color: #335446;
+    font-family: var(--fonte);
+}
+.titulo_principal{
+    font-family:
+}
