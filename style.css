@@ -3,7 +3,7 @@
 :root {
     --branco: #FFF2EB;
     --cor-de-fundo: #333446;
-    --fundo-senha: #533B4D;
+    --fundo-senha: rgba(174, 232, 255, 0.836)04;
     --fundo-texto: #B6B09F;
     --borda: #273F4F;
     --fonte: 'Caveat', Sans-serif;
@@ -15,9 +15,49 @@
 
 body {
     color: var(--branco);
-    background-color: #335446;
+    background-color: #161a42;
     font-family: var(--fonte);
 }
-.titulo_principal{
-    font-family:
+
+.titulo_principal {
+    font-family: var(--fonte) font-size: 32px;
+}
+
+.titulo_secundario {
+    font-size: 24px;
+
+}
+
+.conteudo_titulo {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.cadeado-conteudo {
+    width: 100px;
+}
+
+.conteudo_senha {
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+    font-size: 2px;
+}
+
+#campo_senha {
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--branco);
+    font-size: 40px;
+    width: 70%;
+}
+
+#campo_senha:focus {
+    outline: none;
+}
+
+.conteudo_senhas {
+    max-width: 1200px;
+    margin: 0 auto;
 }
